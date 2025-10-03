@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background-color: #f4ecec;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+#img-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    max-height: 20vh;
+    margin: 0;
+    object-fit: cover;
+    filter: brightness(0.6);
+    z-index: -2;
+}
+
+#drivers-section {
+    padding-left: 2rem;
+}
+
+h1 {
+    color: white;
+    margin-left: 12px;
+    display: inline-block;
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+ul li {
+    display: block;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.driver-number, .driver-number {
+    display: inline-block;
+    min-width: 2rem;
+    padding-right: 0.7rem;
+}
+
+/* Google fonts */
+.racing-sans-one-regular {
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Google icons */
+.material-symbols-outlined {
+    font-size: 3rem;
+    position: relative;
+    top: 0.5rem;
+}
